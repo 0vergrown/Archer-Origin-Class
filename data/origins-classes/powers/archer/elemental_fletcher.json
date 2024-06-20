@@ -1,0 +1,113 @@
+{
+    "name": "Elemental Fletcher",
+    "description": "Craft arrows using a variety of materials. Flint, iron ingot, bone, and quartz can be used as arrowheads, while sticks serve as the shaft. The choice of feather, leaves, or string for fletching determines the number of arrows crafted.",
+    "type":"origins:multiple",
+    "regular_arrow":{
+       "type":"origins:recipe",
+       "recipe":{
+          "type":"minecraft:crafting_shaped",
+          "id":"origins-classes:archer_regular_arrow",
+          "pattern":[
+             " # ",
+             " / ",
+             " F "
+          ],
+          "key":{
+             "#":{
+                "tag":"origins-classes:arrowhead"
+             },
+             "/":{
+                "item":"minecraft:stick"
+             },
+             "F":{
+                "item":"minecraft:feather"
+             }
+          },
+          "result":{
+             "item":"minecraft:arrow",
+             "count":4
+          }
+       }
+    },
+    "leaf_arrow":{
+       "type":"origins:recipe",
+       "recipe":{
+          "type":"minecraft:crafting_shaped",
+          "id":"origins-classes:archer_leaf_arrow",
+          "pattern":[
+             " # ",
+             " / ",
+             " L "
+          ],
+          "key":{
+             "#":{
+                "tag":"origins-classes:arrowhead"
+             },
+             "/":{
+                "item":"minecraft:stick"
+             },
+             "L":{
+                "tag":"minecraft:leaves"
+             }
+          },
+          "result":{
+             "item":"minecraft:arrow",
+             "count":2
+          }
+       }
+    },
+    "string_arrow":{
+       "type":"origins:recipe",
+       "recipe":{
+          "type":"minecraft:crafting_shaped",
+          "id":"origins-classes:archer_string_arrow",
+          "pattern":[
+             " # ",
+             " / ",
+             " S "
+          ],
+          "key":{
+             "#":{
+                "tag":"origins-classes:arrowhead"
+             },
+             "/":{
+                "item":"minecraft:stick"
+             },
+             "S":{
+                "item":"minecraft:string"
+             }
+          },
+          "result":{
+             "item":"minecraft:arrow",
+             "count":3
+          }
+       }
+    },
+    "obsidian_arrow":{
+        "type":"origins:recipe",
+        "recipe":{
+           "type":"minecraft:crafting_shaped",
+           "id":"origins-classes:archer_obsidian_arrow",
+           "pattern":[
+              " O ",
+              " / ",
+              " T "
+           ],
+           "key":{
+              "O":{
+                 "item":"minecraft:obsidian"
+              },
+              "/":{
+                 "item":"minecraft:stick"
+              },
+              "T":{
+                 "tag":"origins-classes:arrow_fletching"
+              }
+           },
+           "result":{
+              "item":"minecraft:arrow",
+              "count":32
+           }
+        }
+    }
+}

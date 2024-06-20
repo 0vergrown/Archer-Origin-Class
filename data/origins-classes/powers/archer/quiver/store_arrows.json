@@ -1,0 +1,10 @@
+{
+  "type":"origins:inventory",
+  "title":"Quiver",
+  "container_type":"hopper",
+  "drop_on_death":true,
+  "recoverable":true,
+  "key":{
+     "key":"key.use"
+  }
+}

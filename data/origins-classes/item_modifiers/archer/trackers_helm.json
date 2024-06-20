@@ -17,6 +17,7 @@
        "lore":[
           {
              "translate":"item_modifier.archer.trackers_helm.lore",
+             "color":"gray",
              "bold":false,
              "italic":false,
              "underlined":false,

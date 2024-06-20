@@ -1,6 +1,8 @@
 {
 	"powers": [
-		"origins-classes:archer/raiment_of_the_archer"
+		"origins-classes:archer/raiment_of_the_archer",
+		"origins-classes:archer/elemental_fletcher",
+		"origins-classes:archer/quiver_craftsmanship"
 	],
 	"icon": "minecraft:bow",
 	"unchoosable":false,

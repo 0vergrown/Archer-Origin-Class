@@ -1,0 +1,46 @@
+{
+   "name":"Quiver Craftsmanship",
+   "description":"Craft a specialized quiver, providing you with a unique container to store arrows.",
+   "type":"origins:multiple",
+   "recipe":{
+      "type":"origins:recipe",
+      "recipe":{
+         "type":"minecraft:crafting_shaped",
+         "id":"origins-classes:archer_quiver",
+         "pattern":[
+            "##L",
+            "#LR",
+            "LR "
+         ],
+         "key":{
+            "#":{
+               "item":"minecraft:string"
+            },
+            "L":{
+               "item":"minecraft:leather"
+            },
+            "R":{
+               "item":"minecraft:rabbit_hide"
+            }
+         },
+         "result":{
+            "item":"minecraft:leather",
+            "count":1
+         }
+      }
+   },
+   "modify_crafting":{
+      "type":"origins:modify_crafting",
+      "recipe":"origins-classes:archer_quiver",
+      "item_action":{
+         "type":"origins:modify",
+         "modifier":"origins-classes:archer/quiver"
+      },
+      "entity_action":{
+         "type":"origins:play_sound",
+         "sound":"minecraft:item.armor.equip_leather",
+         "volume":1.00,
+         "pitch":0.90
+      }
+   }
+}
