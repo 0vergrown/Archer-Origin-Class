@@ -1,0 +1,34 @@
+{
+	"type":"origins:multiple",
+	"trackers_helm_recipe":{
+	   "type":"origins:recipe",
+	   "recipe":{
+		  "type":"minecraft:crafting_shaped",
+		  "id":"origins-classes:archer_trackers_helm",
+		  "pattern":[
+			 "#L#",
+			 "L L"
+		  ],
+		  "key":{
+			 "#":{
+				"item":"minecraft:chain"
+			 },
+			 "L":{
+				"item":"minecraft:leather"
+			 }
+		  },
+		  "result":{
+			 "item":"minecraft:leather_helmet",
+			 "count":1
+		  }
+	   }
+	},
+	"trackers_helm_modify_recipe":{
+	   "type":"origins:modify_crafting",
+	   "recipe":"origins-classes:archer_trackers_helm",
+	   "item_action":{
+		  "type":"origins:modify",
+		  "modifier":"origins-classes:archer/trackers_helm"
+	   }
+	}
+}

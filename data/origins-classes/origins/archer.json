@@ -1,0 +1,9 @@
+{
+	"powers": [
+		"origins-classes:archer/raiment_of_the_archer"
+	],
+	"icon": "minecraft:bow",
+	"unchoosable":false,
+	"order": 11,
+	"impact": 0
+}
