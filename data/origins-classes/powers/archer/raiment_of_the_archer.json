@@ -30,5 +30,101 @@
 		  "type":"origins:modify",
 		  "modifier":"origins-classes:archer/trackers_helm"
 	   }
+	},
+	"rangers_chestguard_recipe":{
+	   "type":"origins:recipe",
+	   "recipe":{
+		  "type":"minecraft:crafting_shaped",
+		  "id":"origins-classes:archer_rangers_chestguard",
+		  "pattern":[
+			 "# #",
+			 "L#L",
+			 "LLL"
+		  ],
+		  "key":{
+			 "#":{
+				"item":"minecraft:chain"
+			 },
+			 "L":{
+				"item":"minecraft:leather"
+			 }
+		  },
+		  "result":{
+			 "item":"minecraft:leather_chestplate",
+			 "count":1
+		  }
+	   }
+	},
+	"rangers_chestguard_modify_recipe":{
+	   "type":"origins:modify_crafting",
+	   "recipe":"origins-classes:archer_rangers_chestguard",
+	   "item_action":{
+		  "type":"origins:modify",
+		  "modifier":"origins-classes:archer/rangers_chestguard"
+	   }
+	},
+	"scouts_leggings_recipe":{
+	   "type":"origins:recipe",
+	   "recipe":{
+		  "type":"minecraft:crafting_shaped",
+		  "id":"origins-classes:archer_scouts_leggings",
+		  "pattern":[
+			 "###",
+			 "L L",
+			 "# #"
+		  ],
+		  "key":{
+			 "#":{
+				"item":"minecraft:chain"
+			 },
+			 "L":{
+				"item":"minecraft:leather"
+			 }
+		  },
+		  "result":{
+			 "item":"minecraft:leather_leggings",
+			 "count":1
+		  }
+	   }
+	},
+	"scouts_leggings_modify_recipe":{
+	   "type":"origins:modify_crafting",
+	   "recipe":"origins-classes:archer_scouts_leggings",
+	   "item_action":{
+		  "type":"origins:modify",
+		  "modifier":"origins-classes:archer/scouts_leggings"
+	   }
+	},
+	"pathfinders_boots_recipe":{
+	   "type":"origins:recipe",
+	   "recipe":{
+		  "type":"minecraft:crafting_shaped",
+		  "id":"origins-classes:archer_pathfinders_boots",
+		  "pattern":[
+			 "   ",
+			 "# #",
+			 "C C"
+		  ],
+		  "key":{
+			 "#":{
+				"item":"minecraft:leather"
+			 },
+			 "C":{
+				"item":"minecraft:chain"
+			 }
+		  },
+		  "result":{
+			 "item":"minecraft:leather_boots",
+			 "count":1
+		  }
+	   }
+	},
+	"pathfinders_boots_modify_recipe":{
+	   "type":"origins:modify_crafting",
+	   "recipe":"origins-classes:archer_pathfinders_boots",
+	   "item_action":{
+		  "type":"origins:modify",
+		  "modifier":"origins-classes:archer/pathfinders_boots"
+	   }
 	}
 }

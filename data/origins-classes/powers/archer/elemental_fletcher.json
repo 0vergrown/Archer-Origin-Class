@@ -8,9 +8,9 @@
           "type":"minecraft:crafting_shaped",
           "id":"origins-classes:archer_regular_arrow",
           "pattern":[
-             " # ",
+             "  #",
              " / ",
-             " F "
+             "F "
           ],
           "key":{
              "#":{
@@ -35,9 +35,9 @@
           "type":"minecraft:crafting_shaped",
           "id":"origins-classes:archer_leaf_arrow",
           "pattern":[
-             " # ",
+             "  #",
              " / ",
-             " L "
+             "L  "
           ],
           "key":{
              "#":{
@@ -62,9 +62,9 @@
           "type":"minecraft:crafting_shaped",
           "id":"origins-classes:archer_string_arrow",
           "pattern":[
-             " # ",
+             "  #",
              " / ",
-             " S "
+             "S  "
           ],
           "key":{
              "#":{
@@ -89,9 +89,9 @@
            "type":"minecraft:crafting_shaped",
            "id":"origins-classes:archer_obsidian_arrow",
            "pattern":[
-              " O ",
+              "  O",
               " / ",
-              " T "
+              "T  "
            ],
            "key":{
               "O":{

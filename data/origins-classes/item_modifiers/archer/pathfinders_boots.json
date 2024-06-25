@@ -1,0 +1,41 @@
+[
+    {
+       "function":"minecraft:set_name",
+       "entity":"this",
+       "name":{
+          "translate":"item_modifier.archer.pathfinders_boots.name",
+          "bold":false,
+          "italic":false,
+          "underlined":false,
+          "strikethrough":false,
+          "obfuscated":false
+       }
+    },
+    {
+       "function":"minecraft:set_lore",
+       "entity":"this",
+       "lore":[
+          {
+             "translate":"item_modifier.archer.pathfinders_boots.lore",
+             "color":"gray",
+             "bold":false,
+             "italic":false,
+             "underlined":false,
+             "strikethrough":false,
+             "obfuscated":false
+          }
+       ],
+       "replace":false
+    },
+    {
+       "function":"minecraft:set_nbt",
+       "tag":"{Tags:archer_pathfinders_boots,Trim:{material:\"minecraft:netherite\",pattern:\"minecraft:rib\"}}"
+    },
+    {
+        "function": "apoli:add_power",
+        "power": "origins-classes:archer/armor_set/feet",
+        "slot": "feet",
+        "hidden":false,
+        "negative": false
+    }
+]

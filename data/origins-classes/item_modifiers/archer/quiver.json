@@ -35,12 +35,5 @@
   {
      "function":"minecraft:set_nbt",
      "tag":"{CustomModelData:590737}"
-  },
-  {
-     "function":"apoli:add_power",
-     "power":"origins-classes:archer/quiver/store_arrows",
-     "slot":"mainhand",
-     "hidden":true,
-     "negative":false
   }
 ]

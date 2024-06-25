@@ -29,7 +29,7 @@
     },
     {
        "function":"minecraft:set_nbt",
-       "tag":"{CustomModelData:639528,Tags:archer_trackers_helm,Trim:{material:\"minecraft:netherite\",pattern:\"minecraft:rib\"}}"
+       "tag":"{Tags:archer_trackers_helm,Trim:{material:\"minecraft:netherite\",pattern:\"minecraft:rib\"}}"
     },
     {
         "function": "apoli:add_power",
